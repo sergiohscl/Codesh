@@ -132,7 +132,8 @@ const ListPatients = () => {
             .includes(searchNationality.toLowerCase());
         })
         .filter((row) => {
-          return row.gender.includes(searchGender);
+          if (!searchGender) return row.gender;
+          return row.gender === searchGender;
         })
         .map((row) => (
           <div key={row.id}>
