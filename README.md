@@ -18,5 +18,22 @@ https://lab.coodesh.com/public-challenges/front-end-challenge-2021
 ## Link do Surge:
 
 
+### Utilizando o projeto:
+
+##### 1-Clonar repositório
+> https://github.com/sergiohscl/Codesh.git
+
+##### 2 - Entrar no diretório
+> cd Codesh
+
+##### 3 - Instalar as dependências
+> npm install
+
+##### Iniciar o projeto
+> npm start
+
+
+
+
 
 
