@@ -32,6 +32,9 @@ https://lab.coodesh.com/public-challenges/front-end-challenge-2021
 ##### Iniciar o projeto
 > npm start
 
+## PARABÉNS!
+
+![Parabéns!](https://raw.githubusercontent.com/devsuperior/bds-assets/main/img/trophy.png)
 
 
 
