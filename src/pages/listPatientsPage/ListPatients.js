@@ -5,7 +5,6 @@ import moment from "moment";
 import Modal from "../../components/Modal";
 import { useNavigate, useParams } from "react-router-dom";
 import { gotoPageDetails } from "../../routers/coordinators";
-import Pagination from "../../components/Pagination";
 
 const ListPatients = () => {
   const { patients} = useContext(GlobalStateContext);
@@ -36,7 +35,7 @@ const ListPatients = () => {
   };
 
   return (
-    <div>
+    <div className="mb-10">
       <Header />
 
       <form className="flex flex-row justify-around items-center flex-wrap m-10 flex-initial">
@@ -111,7 +110,7 @@ const ListPatients = () => {
         </label>
       </form>
 
-      <table className="bg-blue-700 table-fixed border border-collapse mx-auto mt-11 sm: w-3/4">
+      <table className="bg-blue-700 table-fixed border border-collapse mx-auto mt-11 w-3/4">
         <tr className="border">
           <th>Name</th>
           <th>Gender</th>
@@ -163,11 +162,7 @@ const ListPatients = () => {
               </tr>
             </table>           
           </div>
-        ))}
-
-            <div className="mt-5">
-              <Pagination/>
-            </div>
+        ))}            
     </div>
   );
 };

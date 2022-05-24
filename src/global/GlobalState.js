@@ -11,13 +11,10 @@ const GlobalState = (props) => {
   
     const [patients, setPatients] = useState([]);
     const [info, setInfo] = useState([]);
-        
+    
     const listPatients = () => {
       axios.get(`${BASE_URL}/?results=50`)
-        .then((res)=> {
-         //console.log(res.data.results)
-          setPatients(res.data.results)
-        })
+        .then((res)=> setPatients(res.data.results))
         .catch((error) => console.log(error.message))        
     }     
    
@@ -40,8 +37,7 @@ const GlobalState = (props) => {
         })
         .catch((error) => console.log(error.message))      
       })
-    }, [info]);
-        
+    }, [info]);        
 
     const data = {
         patients,
