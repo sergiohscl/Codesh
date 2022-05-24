@@ -33,6 +33,10 @@ https://mountainous-morning.surge.sh
 ##### 4-Iniciar o projeto
 > npm start
 
+## Link da Apresentação do projeto:
+
+https://www.loom.com/embed/e39b4a96acf84408a2811e40d9468ea5
+
 ## PARABÉNS!
 
 ![Parabéns!](https://raw.githubusercontent.com/devsuperior/bds-assets/main/img/trophy.png)
